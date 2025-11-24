@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--NUEVO: Meta description para SEO -->
+    <meta name="description" content="Encuentra recetas fáciles, rápidas y saludables para cocinar en casa. Miles de ideas para todos los gustos.">
+    <!--NUEVO: Meta robots para indexacion -->
+    <meta name="robots" content="index, follow">
+    <!--NUEVO: Palabras clave en el título -->
+    <title>CocinaFácil - Recetas fáciles, rápidas y saludables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!--modo oscuro -->
+    <link rel="stylesheet" href="styles-dark.css" id="dark-theme" disabled>
+</head>
+<body class="theme-light">
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center py-2">
+                <div class="col-auto">
+                    <img src="media/logo.png" alt="Logo CocinaFácil" class="logo-header">
+                </div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="producto.html">Suscríbete</a></li>
+                            <li class="nav-item"><a class="nav-link" href="busqueda.html">Búsqueda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-auto d-flex align-items-center">
+                    <!--NUEVO: Formularioc ompleto con label oculto y botón -->
+                    <form class="d-flex">
+                        <label for="search-input" class="visually-hidden">Buscar recetas</label>
+                        <input type="text" id="search-input" placeholder="Buscar..." class="form-control me-2">
+                        <button type="submit" class="btn btn-outline-secondary me-2">Buscar</button>
+                    </form>
+                    <button class="btn btn-outline-secondary me-2">ES/EN</button>
+                    <!--NUEVO: Aria-label en carrito -->
+                    <a href="#" class="carrito-icon" aria-label="Ir al carrito"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="media/hero.jpg" alt="Imagen hero de cocina" class="hero-img">
+        </section>
+        <section class="columns-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 left-column">
+                        <h2>¡No te quedes sin recetas nunca!</h2>
+                        <p>Descubre miles de recetas deliciosas para todos los gustos.</p>
+                        <a href="busqueda.html" class="btn btn-primary">Explora</a>
+                    </div>
+                    <div class="col-md-6 right-column">
+                        <h2>Aumenta tu conocimiento y accede a nuevas y mejores recetas, asesoramiento y más.</h2>
+                        <a href="producto.html" class="btn btn-secondary">Suscríbete</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">¡Recetas de la semana!</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <!--NUEVO: Alt descriptivo con palabra clave -->
+                            <img src="media/receta1.jpg" class="card-img-top" alt="Receta 1: Pasta al pesto">
+                            <div class="card-body">
+                                <h5 class="card-title">Receta 1</h5>
+                                <!--NUEVO: Aria-label en estrellas -->
+                                <div class="rating" aria-label="Valoración: 5 de 5 estrellas">
+                                    <span aria-hidden="true">⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="media/receta2.jpg" class="card-img-top" alt="Receta 2: Ensalada de pollo">
+                            <div class="card-body">
+                                <h5 class="card-title">Receta 2</h5>
+                                <div class="rating" aria-label="Valoración: 5 de 5 estrellas">
+                                    <span aria-hidden="true">⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="media/receta3.jpg" class="card-img-top" alt="Receta 3: Tarta de manzana">
+                            <div class="card-body">
+                                <h5 class="card-title">Receta 3</h5>
+                                <div class="rating" aria-label="Valoración: 5 de 5 estrellas">
+                                    <span aria-hidden="true">⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">¡Encuentra recetas con el producto que quieras!</h2>
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="product-card">
+                            <img src="media/producto1.png" alt="Producto 1: Tomate">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="product-card">
+                            <img src="media/producto2.png" alt="Producto 2: Pollo">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="product-card">
+                            <img src="media/producto3.png" alt="Producto 3: Espinacas">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="product-card">
+                            <img src="media/producto4.png" alt="Producto 4: Queso">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="media/logo.png" alt="Logo CocinaFácil Footer" class="logo-footer">
+                    <p>Información sobre la empresa...</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Suscríbete</a></li>
+                        <li><a href="#">Búsqueda</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Síguenos</h5>
+                    <div class="social-icons">
+                        <img src="media/icon-facebook.png" alt="Facebook">
+                        <img src="media/icon-instagram.png" alt="Instagram">
+                        <img src="media/icon-twitter.png" alt="Twitter">
+                        <img src="media/icon-tiktok.png" alt="TikTok">
+                        <img src="media/icon-pinterest.png" alt="Pinterest">
+                    </div>
+                    <p>&copy; 2025 CocinaFácil. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--NUEVO: Botón de modo oscuro con role y aria-pressed -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const body = document.body;
+            const toggle = document.createElement('button');
+            toggle.textContent = 'Cambiar a Modo Oscuro';
+            toggle.className = 'btn btn-dark mt-3';
+            toggle.setAttribute('aria-pressed', 'false'); // Estado inicial
+            const darkThemeLink = document.getElementById('dark-theme');
+            if (!darkThemeLink) {
+                console.error('No se encontró el link con id "dark-theme"');
+                return;
+            }
+            toggle.onclick = function() {
+                body.classList.toggle('theme-light');
+                body.classList.toggle('theme-dark');
+
+                if (body.classList.contains('theme-dark')) {
+                    darkThemeLink.disabled = false;
+                    toggle.textContent = 'Cambiar a Modo Claro';
+                    toggle.setAttribute('aria-pressed', 'true');
+                } else {
+                    darkThemeLink.disabled = true;
+                    toggle.textContent = 'Cambiar a Modo Oscuro';
+                    toggle.setAttribute('aria-pressed', 'false');
+                }
+            };
+            document.body.appendChild(toggle);
+        });
+    </script>
+</body>
+</html>
