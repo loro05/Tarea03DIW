@@ -1,0 +1,126 @@
+:root {
+    --color-primary-dark: #1e3a4f;
+    --color-secondary-dark: #2a4a5c;
+    --color-tertiary-dark: #3a5a6a;
+    --color-accent: #2db8b0;
+    --color-light: #4a7a8a;
+    --color-bg-light: #0f1c25;
+    --color-btn-highlight: #a3a46f;
+    --color-text: #e0e0e0;
+    --color-bg: #0f1c25;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.header {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text);
+}
+
+.nav-link {
+    color: var(--color-text);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: var(--color-accent);
+}
+
+.hero-img {
+    filter: brightness(0.7);
+}
+
+.left-column {
+    background-color: var(--color-bg-light);
+    color: var(--color-text);
+}
+
+.right-column {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text);
+}
+
+.btn-primary {
+    background-color: var(--color-btn-highlight);
+    color: var(--color-primary-dark);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #b8b97c;
+}
+
+.btn-secondary {
+    background-color: var(--color-secondary-dark);
+    color: white;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: #0f3a44;
+}
+
+.featured-section, .products-section {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.card, .product-card {
+    background-color: var(--color-bg-light);
+    color: var(--color-text);
+    border-color: var(--color-primary-dark);
+}
+
+.plan-card {
+    background-color: var(--color-bg-light);
+    color: var(--color-text);
+    border-color: var(--color-primary-dark);
+}
+
+.plan-free {
+    border-top-color: var(--color-light);
+}
+
+.plan-pro {
+    border-top-color: var(--color-accent);
+}
+
+.plan-ultimate {
+    border-top-color: var(--color-btn-highlight);
+}
+
+.price {
+    color: var(--color-text);
+}
+
+.btn-upgrade {
+    background-color: var(--color-btn-highlight);
+    color: var(--color-primary-dark);
+}
+
+.btn-upgrade:hover, .btn-upgrade:focus {
+    background-color: #b8b97c;
+}
+
+.search-result-card {
+    background-color: var(--color-bg-light);
+    color: var(--color-text);
+    border-color: var(--color-primary-dark);
+}
+
+.footer {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text);
+}
+
+.social-icons img {
+    filter: invert(0);
+}
+
+.list-unstyled a {
+    color: var(--color-text);
+}
+
+.list-unstyled a:hover, .list-unstyled a:focus {
+    color: var(--color-accent);
+}
